@@ -6,13 +6,4 @@
         <p id='time' class='time'></p>
     </div>
 </body>
-<script type="text/javascript">
-    function writeTime () {
-        var locator = document.getElementById('time');
-        var date = new Date();
-
-        locator.textContent = date.toTimeString().split(' ')[0];
-    }
-    writeTime();
-    setInterval(writeTime, 1000);
-</script>
+<script type="text/javascript" src='javascript/greatday.js'></script>
